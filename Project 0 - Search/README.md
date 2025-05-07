@@ -37,12 +37,12 @@ Problemas de busca envolvem encontrar um caminho do estado inicial ao objetivo. 
 #### Algoritmos Principais:
 1. **Busca em Profundidade (DFS)**
    - Explora um caminho completamente antes de voltar
-   - Usa pilha (LIFO)
+   - Último a entrar, primeiro a sair
    - Vantagem: Rápido se tiver sorte | Desvantagem: Solução subótima
 
 2. **Busca em Largura (BFS)**
    - Explora todas as direções igualmente
-   - Usa fila (FIFO)
+   - Usa fila -> primeiro a entrar, primeiro a sair
    - Vantagem: Solução ótima garantida | Desvantagem: Mais lento
 
 3. **A* (A-estrela)**
